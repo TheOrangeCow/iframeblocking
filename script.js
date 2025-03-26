@@ -1,7 +1,7 @@
 if (window.top !== window.self) {
     async function isWebsiteAllowed() {
         try {
-            const response = await fetch('https://778.house-778.org/dev/list.json');
+            const response = await fetch('https://778.house-778.org/dev/list.php');
             if (!response.ok) {
                 throw new Error('Failed to fetch JSON');
             }
